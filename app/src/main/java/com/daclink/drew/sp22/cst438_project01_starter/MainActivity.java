@@ -39,7 +39,7 @@ public class MainActivity extends AppCompatActivity {
         binding.fab.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Snackbar.make(view, "Test", Snackbar.LENGTH_LONG)
+                Snackbar.make(view, "work pls", Snackbar.LENGTH_LONG)
                         .setAction("Action", null).show();
             }
         });
